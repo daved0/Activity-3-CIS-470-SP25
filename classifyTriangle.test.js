@@ -74,12 +74,6 @@ describe('classifyTriangle: Required input conditions -  See readme for more det
     //ECP-not a triangle
     test('should return "Not a Triangle" for invalid triangle sides', () => {
       expect(classifyTriangle(50,50,101)).toBe('Not a Triangle');
-
-
-
     });
-
-
-
   });
   
